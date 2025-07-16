@@ -10,14 +10,6 @@ Este repositório contém um projeto de estudo utilizando o framework **Cypress*
 - `cy.as()` — criação de aliases
 - Organização e estrutura de testes
 
-## 📁 Estrutura do Projeto -- In Progress
-
-cypress/
-├── e2e/
-│ └── exemplo.cy.js
-├── support/
-cypress.config.js
-
 
 ## 🚀 Como Executar
 
