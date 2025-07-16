@@ -23,8 +23,8 @@ cypress.config.js
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/caioandrademota/automation.git
+cd automation
 
 # Instale as dependências
 npm install
