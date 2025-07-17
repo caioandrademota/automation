@@ -21,5 +21,20 @@ describe('Interactions', () => {
             .get('#btnLogin').click()
             .get('.swal2-confirm').click()
     });
+
+    it('Selection - Dropdown ', () => {
+        cy.visit('/').get('#footer_one').contains('Checkout View Two').click()
+        cy.get('#country').select('Colombia') //selecting an item in a dropdown
+    });
+
+    it('Selection - Radio Button && Checkbox', () => {
+        cy.visit('/')
+            .get('#footer_one')
+            .contains('Checkout View One')
+            .click()
+
+        cy.get('#materialUnchecked').check()
+        .uncheck()
+    });
     
 });  

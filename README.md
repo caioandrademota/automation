@@ -4,6 +4,7 @@ Este repositório contém um projeto de estudo utilizando o framework **Cypress*
 
 ## 🧪 Funcionalidades Estudadas
 
+- **Comandos utilizados**:
 - `cy.visit()` — Navegação para uma URL
 - `cy.get()` — Seleção de elementos com seletores CSS
 - `cy.contains()` — Busca de elementos pelo conteúdo de texto
@@ -14,9 +15,10 @@ Este repositório contém um projeto de estudo utilizando o framework **Cypress*
 - `cy.select()` — Seleção em elementos `<select>`
 - `cy.check()` / `cy.uncheck()` — Marcar/desmarcar checkboxes ou radio buttons
 - `cy.as()` — Criação de aliases (não usado ainda, mas útil para otimização)
+
 - **Organização de testes**:
-  - `describe()` — Agrupa os testes em uma suíte
-  - `it()` — Define um caso de teste
+- `describe()` — Agrupa os testes em uma suíte
+- `it()` — Define um caso de teste
 
 ## 🧾 Estrutura Recomendada
 
