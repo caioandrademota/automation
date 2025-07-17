@@ -1,8 +1,8 @@
-//2 parametros (funcionalidade)
-describe('Login', () => {
+//2 params (feature)
+describe('Elements', () => {
 
-    //caso de teste
-    it('Successful Login', () =>{
+    //testcase
+    it('Working with elements', () =>{
         //comando para acesso de URL, relacionado a baseURL
         //get
         cy.visit('/')
@@ -30,7 +30,6 @@ describe('Login', () => {
     // it('Senha Invalida', () =>{
         
     // })
-
 
 
 })
